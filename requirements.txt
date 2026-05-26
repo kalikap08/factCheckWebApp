@@ -1,0 +1,5 @@
+streamlit
+pymupdf
+tavily-python
+python-dotenv
+openai
