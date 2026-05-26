@@ -10,7 +10,7 @@ import os
 load_dotenv()
 
 # Configure Tavily
-tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+tavily = TavilyClient(api_key=st.secrets["TAVILY_API_KEY"])
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
