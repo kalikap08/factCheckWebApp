@@ -1,44 +1,92 @@
-# AI Fact-Checking Web App
+#  FactCheck AI
 
-An AI-powered fact-checking web application that extracts factual claims from PDF documents and verifies them using live web search and LLM reasoning.
+An AI-powered fact-checking web application that extracts factual claims from PDFs and verifies them using live web intelligence and AI reasoning.
 
-## Features
+---
+
+# Features
 
 - Upload PDF documents
-- Automatic claim extraction
-- AI-powered fact verification
-- Live web evidence retrieval
-- Source citation support
-- Interactive Streamlit UI
+- AI-powered claim extraction
+- Live web verification using Tavily
+- LLM reasoning with OpenRouter
+- Verification analytics dashboard
+- Modern SaaS-style UI
+- Public cloud deployment
 
-## Tech Stack
+---
+
+# Tech Stack
 
 - Python
 - Streamlit
 - OpenRouter API
 - Tavily Search API
 - PyMuPDF
+- GitHub
+- Streamlit Cloud
 
-## Live Demo
+---
 
-Deployed on Streamlit Cloud.
+# Live Demo
 
-## Installation
+https://factcheckwebapp-etvtsxxeeepm4etpsqw2rc.streamlit.app
+
+---
+
+# Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/kalikap08/factCheckWebApp.git
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run app:
+
+```bash
 streamlit run app.py
 ```
 
-## Environment Variables
+---
 
-Create a `.env` file with:
+# Environment Variables
+
+Create a `.env` file:
 
 ```env
 TAVILY_API_KEY=your_key
 OPENROUTER_API_KEY=your_key
 ```
 
-## Author
+---
+
+# Screenshots
+
+Add screenshots here:
+- Home Page
+- Upload Flow
+- Verification Results
+- Analytics Dashboard
+
+---
+
+# Author
 
 Kalika Pokhriyal
+
+---
+
+# Future Improvements
+
+- Confidence score
+- PDF summary generation
+- Export verification reports
+- Multi-language support
+- Source credibility scoring
