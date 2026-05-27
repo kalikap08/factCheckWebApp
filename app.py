@@ -766,7 +766,7 @@ Document:
 """
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="openai/gpt-4o-mini",
         messages=[
             {"role": "user", "content": prompt}
         ]
@@ -900,7 +900,7 @@ Explanation:
 """
 
         response = client.chat.completions.create(
-            model="openai/gpt-3.5-turbo",
+            model="openai/gpt-4o-mini",
             messages=[
                 {"role": "user", "content": prompt}
             ]
