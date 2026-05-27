@@ -1,92 +1,106 @@
-#  FactCheck AI
+# FactCheck AI
 
-An AI-powered fact-checking web application that extracts factual claims from PDFs and verifies them using live web intelligence and AI reasoning.
-
----
-
-# Features
-
-- Upload PDF documents
-- AI-powered claim extraction
-- Live web verification using Tavily
-- LLM reasoning with OpenRouter
-- Verification analytics dashboard
-- Modern SaaS-style UI
-- Public cloud deployment
+AI-powered misinformation detection platform for verifying claims inside PDF documents using live web intelligence and source-backed reasoning.
 
 ---
 
-# Tech Stack
+## Live Demo
 
-- Python
+Deployed App: https://factcheckwebapp-etvtsxxeeepm4etpsqw2rc.streamlit.app/
+
+GitHub Repository: https://github.com/kalikap08/factCheckWebApp
+
+---
+
+## Overview
+
+FactCheck AI helps users detect misinformation and verify factual claims from uploaded PDF documents.
+
+The platform extracts important claims using AI, performs live web verification using trusted sources, and generates confidence-scored fact-checking results with analytics.
+
+Designed with a premium SaaS-style interface and built for intelligent document verification workflows.
+
+---
+
+## Features
+
+- PDF Upload & Parsing
+- AI-Based Claim Extraction
+- Live Web Verification
+- Confidence Scoring
+- Source Credibility Analysis
+- Verification Analytics Dashboard
+- Downloadable Verification Reports
+- Fast & Advanced Verification Modes
+- Premium Modern UI
+
+---
+
+## Tech Stack
+
+### Frontend
 - Streamlit
+- Custom CSS
+
+### AI & Verification
 - OpenRouter API
 - Tavily Search API
+
+### Data & Processing
 - PyMuPDF
-- GitHub
-- Streamlit Cloud
+- Plotly
+- Pandas
 
 ---
 
-# Live Demo
+## How It Works
 
-https://factcheckwebapp-etvtsxxeeepm4etpsqw2rc.streamlit.app
-
----
-
-# Installation
-
-Clone repository:
-
-```bash
-git clone https://github.com/kalikap08/factCheckWebApp.git
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run app:
-
-```bash
-streamlit run app.py
-```
+1. Upload a PDF document
+2. AI extracts factual claims
+3. Claims are verified using live web evidence
+4. Confidence scores are generated
+5. Results are displayed with analytics and sources
 
 ---
 
-# Environment Variables
+## Verification Categories
 
-Create a `.env` file:
+- VERIFIED
+- INACCURATE
+- FALSE
 
-```env
-TAVILY_API_KEY=your_key
-OPENROUTER_API_KEY=your_key
-```
-
----
-
-# Screenshots
-
-Add screenshots here:
-- Home Page
-- Upload Flow
-- Verification Results
-- Analytics Dashboard
+Each result includes:
+- Confidence Score
+- Severity Level
+- Corrected Fact
+- Explanation
+- Supporting Sources
 
 ---
 
-# Author
+## Example Use Cases
+
+- Research Paper Validation
+- Financial Report Verification
+- Market Intelligence Checks
+- Misinformation Detection
+- Technical Document Auditing
+
+---
+
+## Future Enhancements
+
+- Multi-language verification
+- Bias detection engine
+- Real-time misinformation alerts
+- Browser extension integration
+- Enterprise verification APIs
+
+---
+
+## Built By
 
 Kalika Pokhriyal
 
----
-
-# Future Improvements
-
-- Confidence score
-- PDF summary generation
-- Export verification reports
-- Multi-language support
-- Source credibility scoring
+Feedback & Suggestions:
+kalika.pokhriyal@gmail.com
