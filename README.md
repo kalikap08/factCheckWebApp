@@ -35,6 +35,13 @@ Designed with a premium SaaS-style interface and built for intelligent document 
 - Premium Modern UI
 
 ---
+## Screenshots
+
+### Homepage
+![Homepage](![alt text](image.png))
+
+### Verification Results
+![Results](![alt text](image-1.png))
 
 ## Tech Stack
 
