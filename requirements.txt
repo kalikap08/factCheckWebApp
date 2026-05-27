@@ -1,7 +1,6 @@
 streamlit
-PyMuPDF
+pymupdf
 tavily-python
 python-dotenv
-openai>=1.30.0,<2.0.0
+openai
 plotly
-fpdf

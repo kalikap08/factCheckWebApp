@@ -762,11 +762,12 @@ Focus on:
 Return ONLY a clean numbered list.
 
 Document:
-{text[:12000]}
+{text[:5000]}
 """
 
     response = client.chat.completions.create(
-        model="openai/gpt-4o-mini",
+        model="openai/gpt-3.5-turbo",
+        max_tokens=1000,
         messages=[
             {"role": "user", "content": prompt}
         ]
@@ -841,6 +842,7 @@ def extract_confidence(result):
 
     return None
 
+
 # ---------------- CLAIM VERIFICATION ---------------- #
 def verify_claim(claim):
 
@@ -900,7 +902,8 @@ Explanation:
 """
 
         response = client.chat.completions.create(
-            model="openai/gpt-4o-mini",
+            model="openai/gpt-3.5-turbo",
+            max_tokens=1000,
             messages=[
                 {"role": "user", "content": prompt}
             ]
@@ -913,7 +916,6 @@ Explanation:
     except Exception as e:
 
         return f"Error: {e}", []
-
 # ---------------- PDF REPORT ---------------- #
 def generate_pdf_report(results):
 
