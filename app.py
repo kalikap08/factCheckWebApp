@@ -721,7 +721,7 @@ with col2:
     """, unsafe_allow_html=True)
 
     st.markdown('</div>', unsafe_allow_html=True)
-    
+
 # ---------------- PDF EXTRACTION ---------------- #
 def extract_text_from_pdf(pdf_file):
 
@@ -766,7 +766,7 @@ Document:
 """
 
     response = client.chat.completions.create(
-        model="openai/gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=[
             {"role": "user", "content": prompt}
         ]
