@@ -1,5 +1,6 @@
 streamlit
-pymupdf
+PyMuPDF
 tavily-python
 python-dotenv
 openai
+plotly
